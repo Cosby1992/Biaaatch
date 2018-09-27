@@ -3,7 +3,7 @@ public class CardPick{
 
     public static void main(String[] args) {
 
-    int casekey = (int) ((Math.random()*((52-1)+1)));
+    int casekey = (int) ((Math.random()*52));
 
     switch(casekey){
         case 1:
